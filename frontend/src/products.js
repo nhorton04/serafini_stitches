@@ -77,6 +77,19 @@ const products = [
     rating: 4,
     numReviews: 12,
   },
-]
+  {
+    _id: '7',
+    name: 'Hectic Shoe',
+    image: '/images/shoo.jpg',
+    description:
+      'Want to look like a freak? Be harassed by people 24/7? Then this shoe is for you!',
+    brand: 'Shoo',
+    category: 'Shoes',
+    price: 420.69,
+    countInStock: 69,
+    rating: 0.5,
+    numReviews: 988,
+  },
+];
 
-export default products
+export default products;
