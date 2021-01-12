@@ -1,0 +1,23 @@
+{
+  "name": "serafini_stitches",
+  "version": "1.0.0",
+  "description": "Store App",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhorton04/serafini_stitches.git"
+  },
+  "author": "Nick Horton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nhorton04/serafini_stitches/issues"
+  },
+  "homepage": "https://github.com/nhorton04/serafini_stitches#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
