@@ -87,9 +87,9 @@ const products = [
     category: 'Shoes',
     price: 420.69,
     countInStock: 69,
-    rating: 0.5,
+    rating: 1.5,
     numReviews: 988,
   },
 ];
 
-module.exports = products;
+export default products;
