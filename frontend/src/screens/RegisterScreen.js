@@ -23,9 +23,10 @@ const RegisterScreen = ({ location, history }) => {
 
   useEffect(() => {
     if (userInfo) {
-      history.pushState(redirect);
+      history.push(redirect);
     }
   }, [history, userInfo, redirect]);
+
   const submitHandler = (e) => {
     e.preventDefault();
     if (password !== confirmPassword) {
@@ -34,6 +35,7 @@ const RegisterScreen = ({ location, history }) => {
       dispatch(register(name, email, password));
     }
   };
+
   return (
     <FormContainer>
       <h1>Sign Up</h1>
