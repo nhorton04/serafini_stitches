@@ -23,6 +23,7 @@ const LoginScreen = ({ location, history }) => {
       history.pushState(redirect);
     }
   }, [history, userInfo, redirect]);
+
   const submitHandler = (e) => {
     e.preventDefault();
     dispatch(login(email, password));
